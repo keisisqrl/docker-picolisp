@@ -1,6 +1,6 @@
 FROM alpine:3.7
 
-RUN apk add --no-cache openssl curl gcc make openssl-dev musl-dev vim
+RUN apk add --no-cache openssl curl gcc make openssl-dev musl-dev
 
 RUN curl http://software-lab.de/picoLisp.tgz \
     | tar xz
